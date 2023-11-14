@@ -38,7 +38,7 @@ class app extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('opensea Api')),
+        appBar: AppBar(title: Text('my api')),
         body: Obx(
           () => mygetxController.isLoading.value
               ? Center(
