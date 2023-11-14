@@ -11,8 +11,6 @@ import 'package:getx_flutter/next_page.dart';
 import 'package:getx_flutter/pageview.dart';
 import 'package:getx_flutter/third.dart';
 
-import 'package:url_launcher/url_launcher.dart';
-
 void main() {
   runApp(const MyApp());
 }
